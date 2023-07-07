@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+// 'auto' | 'force-dynamic' | 'error' | 'force-static'
 import Container from "@/app/components/Container";
 import ListingCard from "@/app/components/listings/ListingCard";
 import EmptyState from "@/app/components/EmptyState";
@@ -50,6 +52,5 @@ const Home = async ({ searchParams }: HomeProps) => {
     </ClientOnly>
   );
 };
-export const dynamic = 'auto'
-// 'auto' | 'force-dynamic' | 'error' | 'force-static'
+
 export default Home;
