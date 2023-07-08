@@ -32,11 +32,11 @@ export const categories = [
     icon: GiWindmill,
     description: "This property is has windmills!",
   },
-  {
-    label: "Modern",
-    icon: MdOutlineVilla,
-    description: "This property is modern!",
-  },
+  // {
+  //   label: "Modern",
+  //   icon: MdOutlineVilla,
+  //   description: "This property is modern!",
+  // },
   {
     label: "Countryside",
     icon: TbMountain,
